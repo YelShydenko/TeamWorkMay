@@ -8,5 +8,5 @@ CREATE TABLE products (
 
 INSERT INTO products (created_at, title, price, quantity)
 VALUES
-	(current_timestamp(), 'Visa card', 50, 1, ),
-   (current_timestamp(), 'Mastercard card', 100, 1, )
+	(current_timestamp(), 'Visa card', 50, 1),
+   (current_timestamp(), 'Mastercard card', 100, 1)
