@@ -3,8 +3,8 @@ CREATE TABLE products (
 	created_at timestamp,
 	title varchar(128) not null,
 	price int not null,
-	quantity int not null,
-);
+	quantity int not null
+)
 
 INSERT INTO products (created_at, title, price, quantity)
 VALUES
