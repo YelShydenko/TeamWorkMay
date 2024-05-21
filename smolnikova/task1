@@ -2,7 +2,7 @@ create table products(
 id int primary key auto_increment,
 created_at timestamp not null default current_timestamp,
 title varchar(64),
-price int not null,
+price float not null,
 quantity int not null
 )
 
